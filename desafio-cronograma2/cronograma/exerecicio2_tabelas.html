@@ -4,12 +4,37 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tela Inicial</title>
+    <title>Layout</title>
+
+   <style>
+
+    
+body{ background-color: bisque ;}    
 
 
-    <style>
+     
+    
+      table, td {border: solid black;
+                 border-collapse: collapse;
+                 margin: auto;
+                 margin-top: 10vh;
+                 background-color: white;
+                 }
 
-#menu {
+
+      .center {text-align: center;}
+
+
+      #cabecalho {height: 15vh;}
+
+      #menu1 {height: 55vh;
+             width: 10vw;}
+
+      #conteudo {width: 45vw ;}   
+      
+      #rodape {height: 10vh;}
+
+      #menu {
 	background: #0099CC;
 	color: #FFF;
 	height: 45px;
@@ -104,22 +129,21 @@
 }
 
 
+   </style>
 
 
-       
-    </style>
+
 </head>
 <header>
     <nav id='menu'>
         <input type='checkbox' id='responsive-menu' onclick='updatemenu()'><label></label>
         <ul>
           <li><a href='./index.html'>Home</a></li>
-          <li><a href="./exercicio1_tabelas.html">Tabela 1 </a>
-            
+                        
             </ul>
           </li>
          
-          <li><a href="./exerecicio2_tabelas.html">Tabela 2 LAYOUT</a>
+          <li><a href="./exercicio1_tabelas.html">Tabela 1 </a>
            
             </ul>
           </li>
@@ -127,21 +151,35 @@
           <li><a href="./tarefacronograma.html">Cronograma</a> </li>
         </ul>
       </nav>
-      
-</header>
-   
-<body>  
-
-        <article>
-
            
-        </article>
+</header>
 
-         <div>
-              
-               
-
-         </div>
+<body>
     
+
+        <section>
+             <table>
+                      <tr class="center">
+                             <td id="cabecalho" colspan="3">TOPO</td>
+                            
+                      </tr>
+
+                      <tr class="center">
+                            <td id="menu1">MENU</td>
+                            <td id="conteudo">CONTEÚDO</td>
+
+                      </tr>
+    
+                      <tr class="center">
+                        <td id="rodape" colspan="2">RODAPÉ</td>
+                        
+
+                  </tr>
+
+
+             </table>
+
+
+        </section>
 </body>
 </html>
