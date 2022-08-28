@@ -1,0 +1,70 @@
+* {
+   
+   margin-block: auto;}
+
+
+
+.menu_lateral { list-style-type: none ;
+                margin: 15% 0;
+                text-align: justify ;
+               
+               
+                
+}
+
+ .navegacao {
+            background-color: #56578f;
+            width: 15vw;
+            height: 100vh;
+            margin-top: 0;
+            margin-right: 0;
+            margin-inline: 0;
+            
+             
+            }
+
+#fotovictor {margin-top: 20% ;
+             border-radius: 50% ;
+             border-style: groove;
+             border-color: white;
+             text-align: right;
+             width: 75%px;
+             height: 80%;
+              }
+
+
+.div1 {
+         text-align: center ;
+}
+
+
+
+a {color: #ffffff;
+           text-decoration: none;
+           font-weight: bold;             
+           font-family: Verdana, Geneva, Tahoma, sans-serif;}
+
+           .fundopagina {background-color: #efeee7;}
+
+
+.ficha {text-align: center;
+        margin-top: -70vh ;
+        margin-right: 20vw;}
+
+.nome  {font-size: 65px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-align: auto;
+        word-spacing: 10px;
+        font-weight: bold;
+         }
+
+.dados {
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 140px;}
+
+
+.redesocial {margin-top: 40px;
+        margin-left: -150px;
+        
+       }
