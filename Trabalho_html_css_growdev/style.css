@@ -45,26 +45,58 @@ a {color: #ffffff;
            font-family: Verdana, Geneva, Tahoma, sans-serif;}
 
            .fundopagina {background-color: #efeee7;}
+                         
 
+       .ficha {
+                margin-top: -80vh ;
+               }
 
-.ficha {text-align: center;
-        margin-top: -70vh ;
-        margin-right: 20vw;}
-
-.nome  {font-size: 65px;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        text-align: auto;
-        word-spacing: 10px;
-        font-weight: bold;
-         }
-
-.dados {
-    font-size: 20px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin-left: 140px;}
-
-
-.redesocial {margin-top: 40px;
-        margin-left: -150px;
+        .nome  {font-size: 65px;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                word-spacing: 10px;
+                font-weight: bold;
+                margin-left: 290px;
+                 }
         
-       }
+        .dados {
+            font-size: 20px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            margin-left: 12%;
+            text-align: center;}
+        
+        
+        .redesocial {margin-top: 50px;
+                     margin-left: 310px;
+                
+               }
+        
+        .perfil { 
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                margin-left: 305px;
+                   }
+
+        .dados2 {font-size: 20px;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                
+                text-align: center;}
+
+        #logo {text-align: center;
+               margin-top: -80vh;
+               
+                }
+
+          #aside2 {margin-top: -500px ;
+                   margin-left: 19vw;}  
+          
+          #descricao {text-align: left;
+                font-size: 30px;
+                   font-weight: 100;
+                      
+                      }
+
+         #thead2 {font-size: 30px;
+                   font-weight: 100;}
+
+         li {font-size: 20px;
+             margin-top: 15px;}          
+                   
