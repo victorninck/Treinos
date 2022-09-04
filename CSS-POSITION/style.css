@@ -1,0 +1,225 @@
+* {margin: 0;
+   padding: 0;
+   box-sizing: border-box;}
+
+
+
+   body{background-color: silver;
+        }
+
+   .blue { position: relative;
+          background-color: blue;
+          width: 50vw;
+          height: 90vh;
+          margin-left: 24%;
+          top: 28px;}
+
+  .red {background-color: red;
+        width: 37vw;
+        height: 75vh;
+        position: absolute;
+        left: 13% ;
+        top: 50px;}
+
+  .black{background-color: black;
+         width: 26vw;
+         height: 60vh;
+         position: absolute;
+         top: 55px;
+         left: 15%;}
+  
+  .green {background-color: green;
+          width: 17vw;
+          height: 41vh;
+          position: absolute;
+          top: 60px;
+          left: 17%;
+          }
+  .yellow {background-color: yellow;
+           width: 10vw;
+           height: 22vh; 
+           position: absolute;
+           top: 63px;
+           left: 19%;}
+
+
+.box1 {background-color: black;
+       width: 13vw;
+       height: 25vh;
+       position: relative;
+              }
+
+.box2 {background-color: black;
+       width: 13vw;
+       height: 25vh;
+       position: absolute; 
+       bottom: 0px ;}
+
+
+.box3 {background-color: black;
+       width: 13vw;
+       height: 25vh;
+       position: absolute; 
+       bottom: 0px ;
+       right: 0%;}
+  
+.box4 {background-color: black;
+        width: 13vw;
+        height: 25vh;
+        position: absolute; 
+        right: 0%;
+        top: 0;}      
+
+
+.borda1 {background-color: black;
+         border-style: hidden;
+          margin-left: 4%;
+          width: 90vw;
+          margin-top: 25px;
+          height: 180px;
+          border-radius: 25px;
+          padding: 20px;
+          color: white;
+          }
+
+.borda2 {border-bottom: 15px  ;
+         background-color: black;
+         margin-left: 4%;
+         width: 90vw;
+         border-style: solid;
+         border-color:  red  ;
+         border-width: 5px;
+         margin-top: 25px;
+         height: 180px;
+         padding: 15px;
+         font-size: 15px;
+         overflow: auto;
+         color: white;
+               
+            }  
+             
+
+.block1{background-color: black;
+        
+        position: relative;
+        width: 10vw;
+        height: 20vh;
+        margin-top: auto;         
+        margin: 0% 10px 10px 0 ;
+}
+
+.block2 {background-color: black;
+        position: absolute;
+        width: 10vw;
+        height: 20vh;
+        margin: 0 10px 10px 0;
+        top: 130px;
+       
+    
+    
+}
+
+.block3 {background-color: black;
+         position: absolute;
+         width: 10vw;
+         height: 20vh;
+         top: 260px ;
+         margin: 0px 10px 10px 0;
+         
+
+
+}
+
+
+.block4 {background-color: black;
+         position: absolute;
+         width: 10vw;
+         height: 20vh;
+         top: 0px ;
+         margin: 0px 10px 10px 10px;
+         left: 132px;
+}
+
+.block5 {background-color: black;
+    position: absolute;
+    width: 10vw;
+    height: 20vh;
+    float: none;
+    top: 130px;
+    margin: 0px 10px 10px 10px;
+    left: 132px;
+}
+
+.block6 {background-color: black;
+    position: absolute;
+    width: 10vw;
+    height: 20vh;
+    float: none;
+    top: 0px;
+    margin: 0px 10px 10px 10px;
+    left: 274px;
+}
+
+
+.block7 {background-color: black;
+    position: absolute;
+    width: 10vw;
+    height: 20vh;
+    float: none;
+    bottom: 0px;
+    margin: 10px 0px 0px 10px;
+    right: 0;
+}
+
+.block8 {background-color: black;
+    position: absolute;
+    width: 10vw;
+    height: 20vh;
+    float: none;
+    top: 370px;
+    margin: 0px 0px 10px 10px;
+    right: 0;
+}
+
+.block9 {background-color: black;
+    position: absolute;
+    width: 10vw;
+    height: 20vh;
+    float: none;
+    top: 240px;
+    margin: 0px 0px 10px 10px;
+    right: 0;
+}
+
+.block10 {background-color: black;
+    position: absolute;
+    width: 10vw;
+    height: 20vh;
+    float: none;
+    bottom: 0;
+    margin: 0px 10px 0px 10px;
+    right: 132px;
+
+}
+
+.block11 {background-color: black;
+    position: absolute;
+    width: 10vw;
+    height: 20vh;
+    float: none;
+    top: 370px;
+    margin: 0px 10px 0px 10px;
+    right: 132px;
+
+}
+
+.block12 {background-color: black;
+    position: absolute;
+    width: 10vw;
+    height: 20vh;
+    float: none;
+    bottom: 0;
+    margin: 0px 10px 0px 10px;
+    right: 274px;
+
+}
